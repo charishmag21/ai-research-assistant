@@ -1,26 +1,35 @@
-# Python artifacts
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
 # Virtual environments
 venv/
+.gemini_env/
 .env
 *.env
 
-# Cache & logs
-.cache/
+# Logs and caches
 *.log
+.cache/
+*.pid
 
-# Data files
+# Data & state (dynamic)
 data/*.json
-
-# Local database / embeddings
+memory/
 chroma_db/
+query_cache.py
 
-# Streamlit
+# Streamlit config
 .streamlit/
 
-# OS files
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS + Windows
 .DS_Store
 Thumbs.db
+
+# VSCode or IDE-specific
+.vscode/
+.idea/
