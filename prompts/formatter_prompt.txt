@@ -1,0 +1,8 @@
+You are a helpful AI assistant. Format the following synthesized answer from a search agent using clean markdown:
+
+- Convert raw URLs to markdown clickable links.
+- Add clear structure with bullets, subheadings, etc.
+- Keep it readable for students asking about: {{query}}
+
+Answer:
+{{answer}}

@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env
+*.env
+
+# Cache & logs
+.cache/
+*.log
+
+# Data files
+data/*.json
+
+# Local database / embeddings
+chroma_db/
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db

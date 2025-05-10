@@ -1,0 +1,5 @@
+haystack-ai                               # for pipeline orchestration
+streamlit                                 # for the frontend interface
+requests                                  # for calling Serper.dev and scraping
+beautifulsoup4                            # for HTML parsing
+python-dotenv                             # to load your Serper API key from .env
