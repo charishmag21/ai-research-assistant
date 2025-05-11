@@ -3,6 +3,6 @@ streamlit                         # Web app framework
 requests                          # To make HTTP requests (e.g., Serper.dev)
 beautifulsoup4                    # For HTML parsing
 python-dotenv                     # To load .env secrets
-google-generativeai              # For using Gemini LLMs
+google-generativeai==0.8.5              # For using Gemini LLMs
 protobuf<5.0.0                    # Ensures compatibility with grpc dependencies
 tqdm                              # Optional but used in many pipelines
