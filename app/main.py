@@ -1,11 +1,11 @@
 # # streamlit_app.py
 # import streamlit as st
-# import sys
-# import os
+import sys
+import os
 
 # Add the root project directory to sys.path
 # sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import streamlit as st
 from pipelines.main_pipeline import run_pipeline
